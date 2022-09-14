@@ -1,3 +1,90 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
-    background-color: blanchedalmond;
+    background-image:url(fundo.jpg) ;
+    background-position: top center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-color: #121214;
+}
+
+
+ul{
+    list-style: none;
+}
+
+.circle-border {
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+}
+
+main{
+    max-width: 580px;
+    width: 90%;
+    margin: auto;
+    
+    display: grid;
+    gap: 24px;
+
+    margin-top: 32px;
+    
+}
+
+section{
+    background-image:linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+    padding-top: 4px;
+    border-radius: 10px;
+}
+
+section div {
+    background-color: #2A2634; 
+    padding: 32px;
+    padding-top: 24px;
+    border-radius: 8px;
+   
+}
+section h2 {
+    color: white;
+}
+
+section p{
+    letter-spacing: -0.18px;
+    color: #A1A1AA;
+}
+
+section ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 24px;
+}
+
+.game_list img{
+    width: 90px;
+    height: 120px;
+    border-radius: 8px;
+}
+
+
+.channels_list img  {
+    transition: 0.3s;
+    border: 3px solid;
+    border-radius: 50%;
+    width: 90px;
+}
+
+.channels_list *:hover {
+    transform: translateY(-3%);
+}
+
+header{
+    max-width: 90px;
+    width: 120px;
+    left: 220.5px;
+    margin: auto;
 }
